@@ -135,8 +135,6 @@ public class ContainerMod extends net.minecraft.inventory.Container {
         if (slotIndexDoItemContainer + 81 == idDoSLotClickado)
             return ItemStack.EMPTY;
         InventoryPlayer inventoryplayer = player.inventory;
-        if (ItemStack.areItemsEqual(stackInMainHandOfPlayer, inventoryplayer.getStackInSlot(idDoSLotClickado)) && ItemStack.areItemStackTagsEqual(stackInMainHandOfPlayer, inventoryplayer.getStackInSlot(idDoSLotClickado)))
-            return ItemStack.EMPTY;
         ItemStack itemstack = ItemStack.EMPTY;
         if (clickTypeIn == ClickType.QUICK_CRAFT) {
             quickCraftLogic(idDoSLotClickado, dragType, player, inventoryplayer);
