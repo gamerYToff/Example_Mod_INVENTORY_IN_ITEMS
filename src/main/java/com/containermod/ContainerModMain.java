@@ -27,7 +27,7 @@ public class ContainerModMain {
     public static final String MODID = "containermod";
     public static final String NAME = "Container mod";
     public static final String VERSION = "1.0";
-    private static KeyBinding keyBinding = new KeyBinding("KeyBinding que abre o inventario", KeyConflictContext.IN_GAME, KeyModifier.NONE, Keyboard.KEY_P, "Container Mod Example");
+    private static KeyBinding keyBinding = new KeyBinding("KeyBinding que abri o inventario", KeyConflictContext.IN_GAME, KeyModifier.NONE, Keyboard.KEY_P, "Container Mod Example");
     @Mod.Instance
     public static ContainerModMain instance;
 
